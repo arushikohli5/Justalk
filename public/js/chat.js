@@ -6,12 +6,18 @@ const $messageInput = document.querySelector('input')
 const $messageFormButton = document.querySelector('button')
 const $sendLocationButton = document.querySelector('#send-location')
 const $messages = document.querySelector('#messages')
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3615c8fec803bf20a1c5e54873095a1681a7d62d
 // Templates
 const messageTemplate = document.querySelector('#message-template').innerHTML
 const locationTemplate = document.querySelector('#location-template').innerHTML
 const sidebarTempleate = document.querySelector('#sidebar-template').innerHTML
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3615c8fec803bf20a1c5e54873095a1681a7d62d
 //options
 const {username, room} = Qs.parse(location.search, {ignoreQueryPrefix: true})
 
@@ -45,7 +51,11 @@ socket.on('message', (message)=>{
         message: message.text,
         createdAt: moment(message.createdAt).format('h:mm a')
     })
+<<<<<<< HEAD
     $messages.insertAdjacentHTML('beforeend', html) // inserting the messages
+=======
+    $messages.insertAdjacentHTML('beforeend', html)
+>>>>>>> 3615c8fec803bf20a1c5e54873095a1681a7d62d
     autoscroll()
     
 })

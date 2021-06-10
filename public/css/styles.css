@@ -14,12 +14,19 @@ input {
     font-size: 14px;
 }
 
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
 body {
     line-height: 1.4;
     color: #333333;
     font-family: 'Roboto', sans-serif;
+=======
+body {
+    line-height: 1.4;
+    color: #333333;
+    font-family: Helvetica, Arial, sans-serif;
+>>>>>>> 3615c8fec803bf20a1c5e54873095a1681a7d62d
 }
 
 h1 {
@@ -38,9 +45,12 @@ input {
     padding: 12px;
     outline: none;
 }
+<<<<<<< HEAD
 #intro{
     font-size: 15px;
 }
+=======
+>>>>>>> 3615c8fec803bf20a1c5e54873095a1681a7d62d
 
 button {
     cursor: pointer;
@@ -65,9 +75,13 @@ button:disabled {
 
 .centered-form {
     background: #333744;
+<<<<<<< HEAD
     background-image: url('../img/W1.jpg');
     width: 100vw;
     background-size:cover;
+=======
+    width: 100vw;
+>>>>>>> 3615c8fec803bf20a1c5e54873095a1681a7d62d
     height: 100vh;   
     display: flex;
     justify-content: center;
@@ -79,6 +93,7 @@ button:disabled {
     background: #F7F7FA;
     padding: 24px;
     width: 250px;
+<<<<<<< HEAD
     border-radius: 1em;
 }
 .centered-form__box h1{
@@ -149,6 +164,19 @@ label.active{
 }
 
 
+=======
+}
+
+.centered-form button {
+    width: 100%;
+}
+
+.centered-form input {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+>>>>>>> 3615c8fec803bf20a1c5e54873095a1681a7d62d
 /* Chat Page Layout */
 
 .chat {
@@ -169,7 +197,10 @@ label.active{
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     background-image: url('../img/email-pattern.png');
+=======
+>>>>>>> 3615c8fec803bf20a1c5e54873095a1681a7d62d
     max-height: 100vh;
 }
 
@@ -216,6 +247,7 @@ label.active{
 }
 
 .compose input {
+<<<<<<< HEAD
     border: 1px solid #777;
     border-radius: 1em;
     width: 100%;
@@ -224,26 +256,43 @@ label.active{
     background-color: rgb(240, 240, 240);
     color: #6b47b8 ;
     font-weight: 300;
+=======
+    border: 1px solid #eeeeee;
+    width: 100%;
+    padding: 12px;
+    margin: 0 16px 0 0;
+>>>>>>> 3615c8fec803bf20a1c5e54873095a1681a7d62d
     flex-grow: 1;
 }
 
 .compose button {
     font-size: 14px;
+<<<<<<< HEAD
     border-radius: 1em;
+=======
+>>>>>>> 3615c8fec803bf20a1c5e54873095a1681a7d62d
 }
 
 /* Chat Sidebar Styles */
 
 .room-title {
     font-weight: 400;
+<<<<<<< HEAD
     font-size: 30px;
+=======
+    font-size: 22px;
+>>>>>>> 3615c8fec803bf20a1c5e54873095a1681a7d62d
     background: #2c2f3a;
     padding: 24px;   
 }
 
 .list-title {
     font-weight: 500;
+<<<<<<< HEAD
     font-size: 20px;
+=======
+    font-size: 18px;
+>>>>>>> 3615c8fec803bf20a1c5e54873095a1681a7d62d
     margin-bottom: 4px;
     padding: 12px 24px 0 24px;
 }
@@ -251,8 +300,12 @@ label.active{
 .users {
     list-style-type: none;
     font-weight: 300;
+<<<<<<< HEAD
     font-size:15px;
     padding: 12px 24px 0 24px;
     margin-left: 20px;
     list-style-type: circle;
+=======
+    padding: 12px 24px 0 24px;
+>>>>>>> 3615c8fec803bf20a1c5e54873095a1681a7d62d
 }
